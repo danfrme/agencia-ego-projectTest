@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/agencia-ego-peojectTest/static/css/main.01163303.chunk.css",
+    "main.js": "/agencia-ego-peojectTest/static/js/main.1420ad28.chunk.js",
+    "main.js.map": "/agencia-ego-peojectTest/static/js/main.1420ad28.chunk.js.map",
+    "runtime-main.js": "/agencia-ego-peojectTest/static/js/runtime-main.a5c2c34e.js",
+    "runtime-main.js.map": "/agencia-ego-peojectTest/static/js/runtime-main.a5c2c34e.js.map",
+    "static/js/2.7f509939.chunk.js": "/agencia-ego-peojectTest/static/js/2.7f509939.chunk.js",
+    "static/js/2.7f509939.chunk.js.map": "/agencia-ego-peojectTest/static/js/2.7f509939.chunk.js.map",
+    "index.html": "/agencia-ego-peojectTest/index.html",
+    "precache-manifest.6addfc0f473472f545ded05cc47f05e9.js": "/agencia-ego-peojectTest/precache-manifest.6addfc0f473472f545ded05cc47f05e9.js",
+    "service-worker.js": "/agencia-ego-peojectTest/service-worker.js",
+    "static/css/main.01163303.chunk.css.map": "/agencia-ego-peojectTest/static/css/main.01163303.chunk.css.map",
+    "static/js/2.7f509939.chunk.js.LICENSE.txt": "/agencia-ego-peojectTest/static/js/2.7f509939.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/agencia-ego-peojectTest/static/media/1.68ba4f76.png",
+    "static/media/3.png": "/agencia-ego-peojectTest/static/media/3.04e0dfb6.png",
+    "static/media/camry.png": "/agencia-ego-peojectTest/static/media/camry.4f04fbc3.png",
+    "static/media/corolla.png": "/agencia-ego-peojectTest/static/media/corolla.946cd664.png",
+    "static/media/cruiser.png": "/agencia-ego-peojectTest/static/media/cruiser.aa77d96e.png",
+    "static/media/etios.png": "/agencia-ego-peojectTest/static/media/etios.e80ded57.png",
+    "static/media/hilux.png": "/agencia-ego-peojectTest/static/media/hilux.1c9295a5.png",
+    "static/media/img.png": "/agencia-ego-peojectTest/static/media/img.22650e7c.png",
+    "static/media/innova.png": "/agencia-ego-peojectTest/static/media/innova.1fe33667.png",
+    "static/media/prado.png": "/agencia-ego-peojectTest/static/media/prado.1e993ba5.png",
+    "static/media/prius-1.png": "/agencia-ego-peojectTest/static/media/prius-1.53901131.png",
+    "static/media/rav-4.png": "/agencia-ego-peojectTest/static/media/rav-4.417e6fa3.png",
+    "static/media/sw-4.png": "/agencia-ego-peojectTest/static/media/sw-4.9c5b7087.png",
+    "static/media/toyota-86.png": "/agencia-ego-peojectTest/static/media/toyota-86.fff89386.png",
+    "static/media/yaris.png": "/agencia-ego-peojectTest/static/media/yaris.c0138cb3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5c2c34e.js",
+    "static/js/2.7f509939.chunk.js",
+    "static/css/main.01163303.chunk.css",
+    "static/js/main.1420ad28.chunk.js"
+  ]
+}
