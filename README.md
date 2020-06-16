@@ -1,3 +1,11 @@
+Para correr el proyecto de manera local es necesario, por consola correr el comando "npm install",
+que hará la instalación de los modulos necesarios además del archivo "package-lock.json".
+Hecho esto, correr el comando "npm start" y la aplicación incializará en el navegador.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
