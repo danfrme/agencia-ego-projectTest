@@ -1,0 +1,83 @@
+.principal-menu-wrapper {
+    font-size: 17px;
+    border: solid 1px rgba(161, 155, 155, 0.3);
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 390px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    transition: all 1s;
+}
+
+.showMenu {
+    display: block;
+}
+
+.close {
+    cursor: pointer;
+    text-align: end;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.close:hover {
+    color: #fb1414;
+}
+
+.first-menu {
+    text-align: end;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.principal-menu-wrapper ul {
+    list-style: none;
+    border-bottom: solid 1px rgba(161, 155, 155, 0.3);
+    margin-bottom: 75px;
+    text-align: end;
+}
+
+.principal-menu-wrapper ul:nth-child(4) {
+    border-bottom: none;
+
+}
+
+.principal-menu-wrapper ul:last-child {
+    background-color: rgba(161, 155, 155, 0.3);
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.principal-menu-wrapper ul li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.principal-menu-wrapper ul li:hover {
+    background-color: rgba(199, 188, 188, 0.1);
+}
+
+@media (max-width: 450px) {
+    .principal-menu-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .principal-menu-wrapper {
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+}

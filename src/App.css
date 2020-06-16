@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 150vh;
+    position: relative;
+}
+
+.Descubr-todos-los-m {
+    width: 70%;
+    height: 57px;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -1px;
+    color: #373737;
+    margin: 1.5em auto auto 2em;
+}
+
+.blackout {
+    height: 150vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-displayed {
+    max-height: 100vh;
+}
+
+@media (max-width: 525px) {
+    .Descubr-todos-los-m {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Descubr-todos-los-m {
+        width: 315px;
+        height: 88px;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: -0.7px;
+        color: #191919;
+        margin-left: 30px;
+    }
+}

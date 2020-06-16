@@ -1,0 +1,106 @@
+.auto-miniatura {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.4s;
+}
+
+.circular-progress {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.auto-miniatura:hover{
+    color: #fb1414;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.4s;
+}
+
+.auto-miniatura:active {
+    color: #c00808;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.4s;
+}
+
+.Negro-Fill {
+    width: 152px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.auto-miniatura img {
+    width:200px;
+}
+
+.cars-menu {
+    grid-template-columns: auto auto auto auto;
+    display:grid;
+}
+
+.link-description {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 850px) {
+    .cars-menu {
+        grid-template-columns: auto auto auto;
+        display:grid;
+    }
+}
+
+@media (max-width: 650px) {
+    .cars-menu {
+        grid-template-columns: auto auto;
+        display: grid;
+    }
+
+    .auto-miniatura img {
+        width: 230px;
+    }
+
+    .auto-miniatura:first-child {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cars-menu {
+        justify-content: center;
+        display: block;
+        margin-bottom: 30px; 
+        margin-left: 0;
+    }
+
+    .auto-miniatura {
+        margin-left: 5em;
+    }
+    
+    .auto-miniatura img {
+        width: 250px;
+    }
+
+    .cars-menu-disabled {
+        display:none;
+    }
+
+    .auto-miniatura:first-child {
+        margin-top: 20px;
+    }
+
+    .auto-miniatura:last-child {
+        margin-bottom: 30px;
+    }
+
+    .circular-progress {
+        top: 20%;
+    }
+}
+  
